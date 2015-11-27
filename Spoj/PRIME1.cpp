@@ -18,7 +18,8 @@ bool isPrime(long long int n)
     	}
 }
 int main()
-{	long long int t,i,k,n,m;
+{	ios_base::sync_with_stdio(0);
+    long long int t,i,k,n,m;
 	cin>>t;
 	for(k=0;k<t;k++)
 	{	cin>>n>>m;
